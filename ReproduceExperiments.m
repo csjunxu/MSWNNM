@@ -35,7 +35,8 @@ function [ cSimData ] = ReproduceExperiments( )
 % --------------------------------
 % Choose experiments to reproduce
 % --------------------------------
-experimentType = 0;
+warning off;
+experimentType = 1;
 % if experimentType =  1: Table 1 - 1st exp: Debluring on 'set5' with Gauss Blur and Noise STD Sqrt(2)
 % if experimentType =  2: Table 1 - 2st exp: Debluring on 'set5' with Gauss Blur and Noise STD 2
 % if experimentType =  3: Table 1 - 3st exp: Debluring on 'set5' with uniform Blur and Noise STD Sqrt(2)
